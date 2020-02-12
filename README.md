@@ -1,6 +1,10 @@
 # virtual-storage
 Virtual Storage (node) for those who do not have access to localStorage like Dialogflow
 
+# [Test on Runkit](https://runkit.com/onigetoc/5e43f1d10888310014d63d5d)
+
+## Insert in project
+
 ```javascript
 vStorage = require('virtual-storage');
 ```
