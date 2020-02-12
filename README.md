@@ -29,13 +29,13 @@ vStorage.remove('name')
 Delete virtual storage by name:
 
 ```javascript
-Cookies.remove('name')
+vStorage.remove('name')
 ```
 
 Delete all virtual storage:
 
 ```javascript
-Cookies.remove()
+vStorage.remove()
 ```
 
 _IMPORTANT! When deleting a virtual storage it will generate a empty array {}
