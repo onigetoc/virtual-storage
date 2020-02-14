@@ -44,3 +44,40 @@ vStorage.remove()
 
 _IMPORTANT! When deleting a virtual storage it will generate a empty array {}
 
+## For Dialogflow
+
+#### You may need a uniq name / key for your app. like Dialogflow.
+
+Create a uniq name for Dialogflow:
+
+You can create a uniq id at the top of your app.js file like this.
+
+```javascript
+const sessionID =  = new Date().getUTCMilliseconds(); // or any code you may find on the web
+```
+
+```javascript
+vStorage.set('name'+sessionID, store_json_response);
+```
+
+Or with Dialogflow session id.
+
+```javascript
+let sessionID = vStorage.set('PodcastEpisodes'+SessionID(conv.body.session);
+```
+```javascript
+vStorage.set('uniq_name-'+sessionID, store_json_response);
+```
+
+```javascript
+// Get only the id part from Dialogflow conv response
+function SessionID(sID) {
+  var n = sID.lastIndexOf('/');
+  return sID.substring(n + 1);
+}
+```
+
+[Js fiddle Example](https://runkit.com/onigetoc/5e43f1d10888310014d63d5d)
+
+
+
