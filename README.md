@@ -46,11 +46,11 @@ When deleting a virtual storage it will generate a empty array {}
 
 ```javascript
 let json = [{title:'Title 1', description:'Descriptions 1'},{title:'Title 2', description:'Descriptions 2'}];
-vStorage.set('json_infos', 'json);
+vStorage.set('json_infos', json);
 ```
 Get json infos
 ```javascript
-let json_info = vStorage.get('json_infos);
+let json_info = vStorage.get('json_infos');
 
 let tile_1 = json_info[0].title; // Title 1
 let description_2 = json_info[1].description // Descriptions 2
