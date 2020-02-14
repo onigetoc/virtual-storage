@@ -14,7 +14,9 @@ vStorage.set('name2', [{title:'Title 1', description:'Descriptions 1'}]);
 
 console.log('vStorage get name2');
 var getStorage_name2 = vStorage.get('name2');
-console.log(getStorage_name2);
+console.log(getStorage_name2.title);
+console.log(getStorage_name2.description);
+//console.log(getStorage_name2);
 
 console.log('vStorage remove name1');
 vStorage.remove('name1');
