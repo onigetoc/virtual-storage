@@ -44,7 +44,7 @@ vStorage.remove()
 
 When deleting a virtual storage it will generate a empty array {}
 
-Simple set / get example:
+#### Simple set / get example:
 
 ```javascript
 let json = [{title:'Title 1', description:'Descriptions 1'},{title:'Title 2', description:'Descriptions 2'}];
