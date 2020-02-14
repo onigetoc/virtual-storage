@@ -48,6 +48,7 @@ _IMPORTANT! When deleting a virtual storage it will generate a empty array {}
 
 #### You may need a uniq name / key for your app. like Dialogflow.
 
+
 Create a uniq name for Dialogflow:
 
 You can create a uniq id at the top of your app.js file like this.
@@ -63,10 +64,10 @@ vStorage.set('name'+sessionID, store_json_response);
 Or with Dialogflow session id.
 
 ```javascript
-let sessionID = vStorage.set('PodcastEpisodes'+SessionID(conv.body.session);
+let sessionID = vStorage.set('json_list'+SessionID(conv.body.session);
 ```
 ```javascript
-vStorage.set('uniq_name-'+sessionID, store_json_response);
+vStorage.set('uniq_name'+sessionID, store_json_response);
 ```
 
 ```javascript
