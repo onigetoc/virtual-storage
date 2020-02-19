@@ -1,7 +1,7 @@
 {
   "name": "virtual-storage",
   "description": "Virtual Storage (node) for those who do not have access to localStorage like Dialogflow",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "main": "index.js",
   "keywords": [
     "storage",
@@ -9,7 +9,9 @@
     "virtual storage",
     "cookies",
     "history",
+    "cookies",
     "localStorage",
+    "Local Storage",
     "cache"
   ],
   "author": "Gino Cote <ginocote@gmail.com>",
@@ -27,5 +29,13 @@
   },
   "bugs": {
     "url": "https://github.com/onigetoc/virtual-storage/issues"
+  },
+  "homepage": "https://github.com/onigetoc/virtual-storage#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "test/test.js"
   }
 }
