@@ -16,22 +16,20 @@ function vStorage() {
   function set(key, value) {
     Array.isArray(value)||(value=[value]);
     vStorage[key] = value;
-    return (vStorage[key] = value);
+    return (vStorage[key]);
+    // return (vStorage[key] = value);
   }
-
   function get(key) {
     if (!vStorage.hasOwnProperty(key)) {
       console.log("no data found for " + key);
-      return ;
+      return vStorage ;
     }
-    console.log(vStorage);
     return vStorage[key][0];
   }
   function remove(key) {
     key ? delete vStorage[key] : vStorage = {} ;
     return vStorage;
   }
-
   return Object.create({
     set: set,
     get: get,
