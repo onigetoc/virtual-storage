@@ -1,5 +1,3 @@
-// cd C:\GC\1-node-modules\my-module\virtual-storage
-// node app.js
 let vStorage = require('./../index.js');
 
 console.log('vStorage set name1');
@@ -19,7 +17,7 @@ var data = [{
   },
   {
     "id": "2",
-    "msg": "Hello",
+    "msg": "there",
     "tid": "2013-05-05 23:45",
     "fromWho": "hello2@email.se"
   }
