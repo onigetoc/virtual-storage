@@ -1,7 +1,7 @@
 {
   "name": "virtual-storage",
   "description": "Virtual Storage (node) for those who do not have access to localStorage like Dialogflow",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "main": "index.js",
   "keywords": [
     "storage",
