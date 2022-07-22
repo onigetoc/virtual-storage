@@ -100,6 +100,8 @@ function SessionID(sID) {
 }
 ```
 
+[![Npm package version](https://badgen.net/npm/v/virtual-storage)](https://www.npmjs.com/package/virtual-storage)
+
 [Test on Runkit](https://runkit.com/onigetoc/5e43f1d10888310014d63d5d)
 
 [Runkit Demo](https://runkit.com/onigetoc/virtual-storage-by-gc)
