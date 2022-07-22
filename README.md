@@ -102,4 +102,6 @@ function SessionID(sID) {
 
 [Test on Runkit](https://runkit.com/onigetoc/5e43f1d10888310014d63d5d)
 
+[Runkit Demo](https://runkit.com/onigetoc/virtual-storage-by-gc)
+
 [Js fiddle Example](https://jsfiddle.net/onigetoc/jzbuve15/)
