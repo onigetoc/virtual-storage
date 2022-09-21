@@ -1,5 +1,6 @@
 # virtual-storage
-Virtual Storage (node) for those who do not have access to localStorage like Dialogflow
+Virtual Storage (node) for those who do not have access to localStorage like Dialogflow to create project like Google home, Google hub or any projects. If your project do not have access to localStorage or for simple projects to store data, for a web app ect.
+It's based on some simple javascript cookies or localStrorage libraries.
 
 ## Insert in project
 
