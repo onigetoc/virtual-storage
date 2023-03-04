@@ -7,6 +7,10 @@ It's based on some simple javascript cookies or localStrorage libraries.
 ```javascript
 vStorage = require('virtual-storage');
 ```
+OR
+```javascript
+import vStorage from 'virtual-storage';
+```
 
 ## Basic Usage
 
