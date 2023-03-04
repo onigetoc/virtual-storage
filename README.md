@@ -23,12 +23,6 @@ vStorage.get('name') // => 'value'
 vStorage.get('nothing') // => undefined
 ```
 
-Delete virtual storage:
-
-```javascript
-vStorage.remove('name')
-```
-
 Delete virtual storage by name:
 
 ```javascript
