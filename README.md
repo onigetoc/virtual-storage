@@ -1,15 +1,10 @@
 # virtual-storage
-Virtual Storage (node) for those who do not have access to localStorage like Dialogflow to create project like Google home, Google hub or any projects. If your project do not have access to localStorage or for simple projects to store data, for a web app ect.
-It's based on some simple javascript cookies or localStrorage libraries.
+Virtual Storage (node) for those who do not have access to localStorage like Dialogflow
 
 ## Insert in project
 
 ```javascript
 vStorage = require('virtual-storage');
-```
-OR
-```javascript
-import vStorage from 'virtual-storage';
 ```
 
 ## Basic Usage
@@ -25,6 +20,12 @@ Read virtual storage:
 ```javascript
 vStorage.get('name') // => 'value'
 vStorage.get('nothing') // => undefined
+```
+
+Delete virtual storage:
+
+```javascript
+vStorage.remove('name')
 ```
 
 Delete virtual storage by name:
@@ -99,10 +100,6 @@ function SessionID(sID) {
 }
 ```
 
-[![Npm package version](https://badgen.net/npm/v/virtual-storage)](https://www.npmjs.com/package/virtual-storage)
-
 [Test on Runkit](https://runkit.com/onigetoc/5e43f1d10888310014d63d5d)
-
-[Runkit Demo](https://runkit.com/onigetoc/virtual-storage-by-gc)
 
 [Js fiddle Example](https://jsfiddle.net/onigetoc/jzbuve15/)
